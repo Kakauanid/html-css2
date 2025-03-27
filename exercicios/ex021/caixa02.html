@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: tomato;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+        }
+        h1{
+
+        }
+        nav{
+            background-color: rgba(230, 70, 70, 0.582);
+            padding: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+            border-radius: 6px;
+           
+
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main{
+            background-color:white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        article{
+            background-color:rgba(255, 166, 0, 0.63);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 10px;
+        }
+        article > aside{
+            background-color: rgba(255, 68, 0, 0.63);
+            padding: 3px;
+            border-radius: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        } footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: black;
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos"></section>
+        <p>Esporter Política Tecnologia</p>
+        <section id="noticias"></section>
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate sed saepe corporis deserunt! Voluptatum voluptate maxime beatae laboriosam nisi nobis facere, assumenda earum aliquam numquam in commodi vero minus necessitatibus.</p>
+                <aside>
+                    <p>Artigo escrito por josé Silva</p>
+                </aside>
+            </article>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola"></div>    
+</body>
+</html>
